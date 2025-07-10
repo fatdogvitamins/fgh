@@ -1,0 +1,32 @@
+{
+    "name": "fgh",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "smarthome-kit": "github:tinkertanker/pxt-smarthome#v2.2.5",
+        "servo": "*",
+        "radio-broadcast": "*",
+        "datalogger": "*",
+        "audio-recording": "*",
+        "pxt-kitronik-motor-driver": "github:kitronikltd/pxt-kitronik-motor-driver#v0.0.8"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.61",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj"
+}
